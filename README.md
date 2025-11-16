@@ -94,10 +94,12 @@ Messages range from travel bookings to billing issues, profile updates, and than
 Local Development
 ---
 
-git clone https://github.com/anshulsharmanyu/Natural_LanguageQnA
-cd MemberDataQuestionAnswer
-docker build -t fastapi-qa .
-docker run -p 8000:8000 fastapi-qa
+- git clone https://github.com/anshulsharmanyu/Natural_LanguageQnA
+- cd MemberDataQuestionAnswer
+- docker build -t fastapi-qa .
+- docker run -p 8000:8000 fastapi-qa
+
+- Visit http://localhost:8000/docs
 
 ---
 ### Future Enhancements
