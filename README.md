@@ -31,8 +31,6 @@ Response:
 }
 ```
 
-The system uses member messages from this API, which contains over 3,000 timestamped entries from individuals like Layla Kawaguchi, Vikram Desai, and Sophia Al-Farsi.
-
 ---
 ### Design Notes
 
