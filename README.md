@@ -3,7 +3,8 @@
 This project is a FastAPI-based question-answering system that extracts relevant answers from a dataset of member messages. Users can ask natural language questions like “Where did Layla travel last month?” or “What is Vikram’s favorite restaurant?” and receive conversational responses grounded in actual message history.
 
 ---
-
+## Hosted at https://natural-languageqna-1.onrender.com/
+---
 ##  Features
 
 - Semantic search using SentenceTransformers
@@ -94,20 +95,20 @@ Local Development
 ---
 
 git clone https://github.com/anshulsharmanyu/Natural_LanguageQnA
-cd fastapi-qa
+cd MemberDataQuestionAnswer
 docker build -t fastapi-qa .
 docker run -p 8000:8000 fastapi-qa
 
 ---
 ### Future Enhancements
 ---
-Multi-message summarization
+- Multi-message summarization
 
-Named entity extraction for richer answers
+- Named entity extraction for richer answers
 
-Optional LLM integration for rephrasing
+- Optional LLM integration for rephrasing
 
-User feedback loop to improve relevance scoring
+- User feedback loop to improve relevance scoring
 
 
 ---
