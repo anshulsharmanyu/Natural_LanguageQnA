@@ -28,11 +28,11 @@ Response:
 {
   "answer": "Layla Kawaguchi said: Secure a reservation at the chef’s table for six at Alinea."
 }
-
-
+```
 
 The system uses member messages from this API, which contains over 3,000 timestamped entries from individuals like Layla Kawaguchi, Vikram Desai, and Sophia Al-Farsi.
 
+---
 ### Design Notes
 
 Several alternative approaches were considered before settling on the current architecture:
@@ -65,7 +65,9 @@ Several alternative approaches were considered before settling on the current ar
 
 ✅ Avoids hardcoding by blending question and keyword embeddings
 
-## Bonus 2: Data Insights
+---
+
+###  Data Insights
 
 After analyzing the dataset, several anomalies and inconsistencies were observed:
 
@@ -85,21 +87,20 @@ Some messages express preferences (e.g., “I prefer aisle seats”) without con
 
 Messages range from travel bookings to billing issues, profile updates, and thank-you notes. This diversity requires flexible semantic filtering to avoid false positives.
 
-🛠️ Setup & Deployment
+## Setup & Deployment
 
+---
 Local Development
+---
 
-git clone https://github.com/your-username/fastapi-qa.git
+git clone https://github.com/anshulsharmanyu/Natural_LanguageQnA
 cd fastapi-qa
 docker build -t fastapi-qa .
 docker run -p 8000:8000 fastapi-qa
 
-Public Deployment
-
-Use Render or Railway to deploy directly from GitHub.
-
-📚 Future Enhancements
-
+---
+### Future Enhancements
+---
 Multi-message summarization
 
 Named entity extraction for richer answers
@@ -110,5 +111,3 @@ User feedback loop to improve relevance scoring
 
 
 ---
-
-To download this file, click/open the card below:
